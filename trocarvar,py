@@ -1,0 +1,26 @@
+x = 1    # int
+y = 2.8  # float
+z = 1j   # complex
+
+#converter do int pro float
+a = float(x)
+
+#converte do float pro int
+b = int(y)
+
+#converte do int pro complexo:
+c = complex(x)
+
+#tentar converter complexo
+#d = int(z)
+#da erro
+
+print(a)
+print(b)
+print(c)
+#print(d)
+
+print(type(a))
+print(type(b))
+print(type(c))
+#print(type(d))
